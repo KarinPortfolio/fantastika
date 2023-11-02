@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 1.5rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Roboto-Serif;
+}
+
+header {
+  position: absolute;
+  background-color: #252525;
+  color: #ffffff;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  float: right;
+  display: block;
+  s
+}
+
+.nav-mini {
+  display: none;
+}
+
+.logoimg {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  width: 2.5%;
+  height: 2.5%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+  padding-left: 1vw;
+}
+
+span {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+}
+
+ul {
+  padding-left: 50vw;
+}
+
+li {
+  list-style: none;
+  padding-right: 2vw;
+  display: inline-block;
+}
+
+.logo-mini {
+  display: none;
+}
+
+.container {
+  width: 100%;
+}
+
+.festa {
+  background-image: url("imagens/chapeu.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 160vh;
+
+}
+
+.festa h1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 38vw;
+  padding-top: 30vh;
+  color: #ffffff;
+}
+
+.patinha {
+  padding-left: 50vw;
+  padding-top: 5vh;
+}
+
+.leao {
+  background-image: url("imagens/leao.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 160vh;
+
+  color: #3A342F;
+}
+
+.leao h1 {
+  padding-left: 4vw;
+  padding-top: 40vh;
+}
+
+.leao p {
+  position: relative;
+  width: 30%;
+  padding-bottom: 2vh;
+  padding-left: 4vw;
+}
+
+.leao button {
+  position: absolute;
+  left: 6vw;
+  background-color: #3A342F;
+  color: #F4F2F3;
+}
+
+.doginho {
+  background-image: url("imagens/doginho.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 160vh;
+
+  background-color: #3A342F;
+  color: #F4F2F3;
+}
+
+.doginho h1 {
+  padding-left: 50vw;
+  padding-top: 40vh;
+}
+
+.doginho p {
+  position: relative;
+  width: 30%;
+  padding-bottom: 2vh;
+  padding-left: 50vw;
+}
+
+.doginho button {
+  position: absolute;
+  left: 50vw;
+  background-color: #F4F2F3;
+  color: #3A342F;
+}
+
+button {
+  height: 10vh;
+  width: 14vw;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 20px;
+}
+
+.apoio {
+  display: flex;
+  background-color: #F4F2F3;
+  padding-left: 24vw;
+  padding-top: 10vh;
+}
+
+.apoio img {
+  padding-left: 10vw;
+  padding-top: 1.5vh;
+  padding-bottom: 10vh;
+}
+
+em {
+  color: #EB4A7B;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #EB4A7B;
+  color: #F4F2F3;
+}
+
+.containerBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Box {
+  text-align: left;
+  justify-content: space-evenly;
+  padding-top: 10vh;
+  padding-left: 10vw;
+}
+
+.Box h2 {
+  font-weight: bold;
+  padding-bottom: 5vh;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #EB4A7B;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logoimg {
+    display: none;
+  }
+
+  span {
+    display: none;
+  }
+
+  nav {
+    width: 500px;
+    height: 20vh;
+    float: right;
+  }
+
+  .nav-mini {
+    display: initial;
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .logo-mini {
+    display: initial;
+    justify-content: flex-start;
+    padding-left: auto;
+
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  .festa {
+    background-image: url("imagens/festa-mini.png");
+    background-size: contain;
+    text-align: center;
+    height: 130vh;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  .festa h1 {
+    width: 350px;
+  }
+
+  .patinha {
+    padding-left: 1vw;
+    padding-top: 5vh;
+  }
+
+  .leao {
+    background-image: url("imagens/leao-mini.png");
+  }
+
+  .leao h1 {
+    padding-top: 3vh;
+  }
+
+  .leao p {
+    width: 70%;
+  }
+
+  .doginho {
+    background-image: url("imagens/doginho-mini.png");
+  }
+
+  .doginho h1 {
+    padding-left: 2vw;
+    padding-top: 3vh;
+  }
+
+  .doginho p {
+    width: 70%;
+    padding-left: 4vw;
+  }
+
+  .doginho button {
+    left: 4vw;
+  }
+
+  button {
+    height: 10vh;
+    width: 24vw;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 20px;
+  }
+
+  .apoio {
+    display: block;
+  }
+
+  .containerBox {
+    display: block;
+  }
+
+  .Box {
+    text-align: center;
+    padding: 4vh;
+  }
+}
